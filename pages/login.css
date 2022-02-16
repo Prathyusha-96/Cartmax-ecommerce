@@ -1,5 +1,9 @@
 :root {
+    --primary-color: #60a5fa;
     --text-color: #282828;
+    --white: #fff;
+    --black: #333;
+    --grey: #999;
 }
 
 body {
@@ -33,7 +37,7 @@ body {
     text-align: center;
 }
 .input {
-    color: #333;
+    color: var(--grey);
     font-size: 0.8rem;
     line-height: 1.2px;
     margin: 0 1.1rem 0.8rem;
@@ -45,8 +49,8 @@ label {
 }
 
 .input-txt {
-    background: #fff;
-    border: 1px solid #999;
+    background: var(--white);
+    border: 1px solid var(--grey);
     padding: 0.6rem 0.7rem;
     float: left;
     font-size: 0.8rem;
@@ -57,13 +61,13 @@ label {
     border-radius: 2px;
 }
 input[type=password] {
-    border: 1px solid #999;
+    border: 1px solid var(--grey);
 }
 
 
 .login-forget {
     float: right;
-    color: #60a5fa;
+    color: var(--primary-color);
 }
 .btn {
     font-weight: 600;
@@ -80,7 +84,7 @@ input[type=password] {
     margin: 10px;
 }
 .btn-primary {
-    background-color: #3b82f6;
+    background-color: var(--primary-color);
     color: cornsilk;
 }
 .login-link {
