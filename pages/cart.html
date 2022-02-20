@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://techno-ui.netlify.app/">
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="products.css">
+  <script src="https://kit.fontawesome.com/76236e6232.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <nav>
+        <div class="left-nav">
+            <a href="/index.html">CartMax</a>
+     </div>
+     <ul class="navbar-search">
+        <input class="search-box" type="search" placeholder="Search"><span class="search-icon">
+       <i class="fas fa-search" aria-hidden="true"></i></span>
+      </ul>
+        <ul class="right-nav">
+            <li><a href="/pages/login.html" class="btn btn-default">Login</a></li>
+            <li class="badge"><a href="/pages/cart.html">
+                <i class="badge-icon fas fa-cart-plus" aria-hidden="true"></i>
+                <span class="badge-number">1</span> 
+            </a></li>
+            <li class="badge"><a href="/pages/wishlist.html">
+                <i class="badge-icon far fa-heart" aria-hidden="true"></i>
+                <span class="badge-number">3</span> 
+            </a></li>
+        </ul>
+    </nav>
+    <main class="cart-container">
+        <h3 class="content-heading text-center">MY Cart</h3>
+        <div class="cart">
+          <div class="cart-horizontal">
+            <div class="cart-image">
+              <img src="/images/product4.jpg"alt="img">
+            </div>
+            <div class="cart-content">
+              <div class="card-title">Men's Jacket</div>
+              <div class="card-price">
+                <span class="price-now">Rs.350</span>
+               <span class="price-before">Rs.899</span>
+               <span class="discount">(60% OFF)</span>
+              </div>
+              <div class="cart-quantity">
+                <p class="cart-text">Quantity:</p>
+                <p>
+                <i class="fas fa-minus-circle"></i>
+                </p>
+                <p class="cart-quantity-number">1</p>
+                <p>
+                <i class="fas fa-plus-circle"></i>
+                </p>
+              </div>
+              <div class="product-button">
+                <button class="btn btn-primary">Move to Wishlist</button>
+                <button class="btn btn-secondary">Remove From Cart</button>
+              </div>
+            </div>
+            </div>
+          <div class="cart-vertical">
+            <h3 class="cart-heading">Price details</h3>
+            <hr>
+            <div class="cart-price--distribution">
+            <p>Price (2 items) <span class="cart-price--value">Rs.1299</span></p>
+            <p>Discount <span class="cart-price--value">Rs.600</span> </p>
+            <p>Delivery Charges <span class="cart-price--value">Rs.199</span></p>
+            </div>
+            <hr>
+            <h3 class="cart-total">Total amount <span class="cart-price--value">Rs.899</span></h3>
+            <hr>
+            <p class="cart-text">You will save 499 on this order</p>
+            <button class="btn btn-primary">Place your order</button>
+          </div>
+
+          </div>
+          </main>
+</body>
+</html>
